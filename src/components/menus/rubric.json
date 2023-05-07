@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_menus_rubrics",
+  "info": {
+    "displayName": "rubric",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menus.items"
+    },
+    "icon_name": {
+      "type": "string"
+    }
+  }
+}

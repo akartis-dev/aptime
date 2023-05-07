@@ -1,0 +1,116 @@
+{
+  "collectionName": "components_menus_items",
+  "info": {
+    "displayName": "items",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "phone": {
+      "type": "string"
+    },
+    "about": {
+      "type": "text"
+    },
+    "mail": {
+      "type": "email"
+    },
+    "adress": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Santé",
+        "Education",
+        "Bien être",
+        "Technologie"
+      ]
+    },
+    "region": {
+      "type": "enumeration",
+      "enum": [
+        "Antananarivo",
+        "Antsiranana",
+        "Majunga",
+        "Toamasina",
+        "Fianarantsoa",
+        "Toliara"
+      ]
+    },
+    "speciality": {
+      "type": "enumeration",
+      "enum": [
+        "Anatomie et cytologie pathologiques",
+        "Cardiologie et maladies vasculaires",
+        "Dermatologie et vénérologie",
+        "Endocrinologie et métabolismes",
+        "Gastro-entérologie et hépatologie",
+        "Génétique médicale",
+        "Hématologie",
+        "Médecine interne",
+        "Médecine nucléaire",
+        "Médecine physique et de réadaptation",
+        "Néphrologie",
+        "Neurologie",
+        "Oncologie",
+        "Pneumologie",
+        "Radiodiagnostic et imagerie médicale",
+        "Rhumatologie",
+        "Médecine générale",
+        "Chirurgie générale",
+        "Neurochirurgie",
+        "Ophtalmologie",
+        "Oto-rhino-laryngologie",
+        "Chirurgie infantile",
+        "Chirurgie maxillo-faciale et stomatologie",
+        "Chirurgie de la face et du cou",
+        "Chirurgie orthopédique et traumatologie",
+        "Chirurgie plastique reconstructrice et esthétique",
+        "Chirurgie thoracique et cardio-vasculaire",
+        "Chirurgie urologique",
+        "Chirurgie vasculaire\t",
+        "Chirurgie viscérale et digestive",
+        "Anesthésie- réanimation",
+        "Pédiatrie",
+        "Médecine du travail",
+        "Santé publique et médecine sociale",
+        "Gynécologie- obstétrique",
+        "Gynécologie médicale",
+        "Biologie médicale",
+        "Psychiatrie"
+      ]
+    },
+    "linked": {
+      "type": "boolean"
+    }
+  }
+}
